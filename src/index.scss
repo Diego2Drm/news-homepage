@@ -1,4 +1,13 @@
 // variables 
 @use './scss/variables';
 //resets
-@use './scss/resets'
+@use './scss/resets';
+
+
+#offcanvasNavbar{
+  width: 65%;
+}
+
+.nav-link{
+  color: variables.$Very-dark-blue !important;
+}

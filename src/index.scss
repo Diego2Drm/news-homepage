@@ -4,10 +4,81 @@
 @use './scss/resets';
 
 
-#offcanvasNavbar{
+#offcanvasNavbar {
   width: 65%;
 }
 
-.nav-link{
+.nav-link {
   color: variables.$Very-dark-blue !important;
+}
+
+.img-mobile,
+.img-desktop {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.title-bright {
+  font-size: 3rem;
+  font-weight: bold;
+  color: variables.$Very-dark-blue;
+  margin-bottom: 1rem;
+}
+
+.info-bright {
+  color: variables.$Dark-grayish-blue;
+  font-size: .9rem;
+}
+
+.link-bright {
+  text-decoration: none;
+  color: variables.$Very-dark-blue;
+  font-weight: bold;
+  background: variables.$Soft-red;
+  width: 11rem !important;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1rem;
+  transition: .5s ease-in-out;
+
+  &:hover {
+    background: variables.$Very-dark-blue;
+    color: variables.$Off-white;
+  }
+}
+
+.content-new {
+  background: variables.$Very-dark-blue;
+
+  h2 {
+    color: variables.$Soft-orange;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  article:nth-of-type(1),
+  article:nth-of-type(2) {
+    border-bottom: 2px solid variables.$Dark-grayish-blue;
+    margin-bottom: 2rem;
+  }
+
+  article p:nth-child(1) {
+    color: variables.$Off-white;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    display: inline-block;
+
+    &:hover {
+      color: variables.$Soft-orange;
+      cursor: pointer;
+    }
+  }
+
+  article p:nth-child(2) {
+    color: variables.$Grayish-blue;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
 }

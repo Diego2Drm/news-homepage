@@ -105,6 +105,7 @@ footer {
           margin-bottom: .6rem;
           display: inline-block;
           transition: .2s ease-in-out;
+
           &:hover {
             cursor: pointer;
             color: variables.$Soft-red;
@@ -118,5 +119,14 @@ footer {
         }
       }
     }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
   }
 }

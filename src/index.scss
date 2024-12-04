@@ -10,6 +10,9 @@
 
 .nav-link {
   color: variables.$Very-dark-blue !important;
+  &:hover{
+    color: variables.$Soft-orange !important;
+  }
 }
 
 .img-mobile,

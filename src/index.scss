@@ -82,3 +82,41 @@
     font-size: 1.2rem;
   }
 }
+
+footer {
+  article {
+    figure {
+      img {
+        height: 8rem;
+      }
+
+      div {
+        span {
+          color: variables.$Soft-red;
+          font-weight: bold;
+          font-size: 2rem;
+          display: block;
+        }
+
+        p:nth-child(2) {
+          color: variables.$Very-dark-blue;
+          font-weight: bold;
+          font-size: 1.1rem;
+          margin-bottom: .6rem;
+          display: inline-block;
+          transition: .2s ease-in-out;
+          &:hover {
+            cursor: pointer;
+            color: variables.$Soft-red;
+          }
+        }
+
+        p:nth-child(3) {
+          color: variables.$Dark-grayish-blue;
+          font-size: .9rem;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
